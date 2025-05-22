@@ -20,6 +20,6 @@ public class push : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        gameObject.transform.position = gameObject.transform.position + Vector3.forward;
+        gameObject.transform.position = gameObject.transform.position + new Vector3(0, 0, -1);
     }
 }
